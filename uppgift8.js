@@ -10,3 +10,5 @@ let book = {
 function bookInfo (book) {
 
 }
+
+console.log ("Titel: " + () + "," + "Författare: " + () + "," + "Utgivningsår: " + () + ".")
