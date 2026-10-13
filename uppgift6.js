@@ -9,4 +9,4 @@ function calculateArea(height, width) {
     return area;
 }
 /* Anrop = Skriv ut text + funktionen (med värdet på variablerna) */
-console.log("Arean är " + calculateArea(34, 65));
+console.log("Arean är " + calculateArea(20, 40));
