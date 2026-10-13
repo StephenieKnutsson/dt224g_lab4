@@ -2,4 +2,7 @@
 "use strict"
 
 let firstName = ("Stephenie");
-console.log(firstName);
+
+let lastName = ("Knutsson");
+
+console.log(lastName);
