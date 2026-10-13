@@ -7,4 +7,5 @@ let lastName = ("Knutsson");
 
 let age = (31);
 
-console.log(age);
+let isStudent = true; 
+
