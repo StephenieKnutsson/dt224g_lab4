@@ -13,5 +13,6 @@ let dish = ["pizza", "lasagne", "gryta", "korvstroganoff", "flygande Jacob"];
 dish.push("tacos");
 
 /* 5. Ta bort den första maträtten i arrayen */
+dish.shift();
 
 /* 6. Skriva ut arrayen igen efter förändringarna */
