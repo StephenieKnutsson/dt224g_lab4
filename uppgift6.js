@@ -1,6 +1,7 @@
 /* Lösning till Uppgift 6 - Funktioner. Av Stephenie Knutsson, 2026 */
 "use strict"
 
-function calculateArea(height + width) {
-    console.log();
+function calculateArea(height, width) {
+    console.log(height * width);
 };
+calculateArea(40, 35);
