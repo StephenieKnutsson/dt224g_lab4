@@ -6,3 +6,7 @@ let book = {
     author: "Robert Jordan",
     publishDate: "1990",
 };
+
+function bookInfo (book) {
+
+}
