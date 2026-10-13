@@ -10,6 +10,7 @@ let dish = ["pizza", "lasagne", "gryta", "korvstroganoff", "flygande Jacob"];
 /* 3. Skriva ut det sista elementet */
 
 /* 4. Lägga till en ny maträtt sist i arrayen */
+dish.push("tacos");
 
 /* 5. Ta bort den första maträtten i arrayen */
 
