@@ -2,3 +2,15 @@
 "use strict"
 
 let dish = ["pizza", "lasagne", "gryta", "korvstroganoff", "flygande Jacob"];
+
+/* 1. Skriva ut hela arrayen */
+
+/* 2. Skriva ut det första elementet */
+
+/* 3. Skriva ut det sista elementet */
+
+/* 4. Lägga till en ny maträtt sist i arrayen */
+
+/* 5. Ta bort den första maträtten i arrayen */
+
+/* 6. Skriva ut arrayen igen efter förändringarna */
