@@ -8,6 +8,13 @@ const cat = [
         breed: "Ragdoll",
     },
     {
-        
+        name: "Elliot",
+        age: 5,
+        breed: "Birma", 
+    }
+    {
+        name: "Edison",
+        age: 5,
+        breed: "Birma", 
     }
 ]
