@@ -10,7 +10,7 @@ console.log(dish);
 console.log(dish[0]);
 
 /* 3. Skriva ut det sista elementet */
-
+console.log(dish[4]);
 
 /* 4. Lägga till en ny maträtt sist i arrayen */
 dish.push("tacos");
