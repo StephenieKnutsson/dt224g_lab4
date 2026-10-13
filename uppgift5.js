@@ -19,3 +19,4 @@ dish.push("tacos");
 dish.shift();
 
 /* 6. Skriva ut arrayen igen efter förändringarna */
+console.log(dish);
