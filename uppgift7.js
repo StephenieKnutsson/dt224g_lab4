@@ -7,3 +7,5 @@ function calculateSum () {
     let sum = ()
     return sum;
 }
+
+console.log("Summan är " + calculateSum());
