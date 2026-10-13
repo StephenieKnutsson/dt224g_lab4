@@ -7,7 +7,7 @@ let dish = ["pizza", "lasagne", "gryta", "korvstroganoff", "flygande Jacob"];
 console.log(dish);
 
 /* 2. Skriva ut det första elementet */
-
+console.log(dish[0]);
 
 /* 3. Skriva ut det sista elementet */
 
