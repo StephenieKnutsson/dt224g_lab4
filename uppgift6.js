@@ -2,5 +2,5 @@
 "use strict"
 
 function calculateArea() {
-    
-}
+    console.log();
+};
