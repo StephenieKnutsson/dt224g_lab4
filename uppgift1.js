@@ -5,4 +5,6 @@ let firstName = ("Stephenie");
 
 let lastName = ("Knutsson");
 
-console.log(lastName);
+let age = (31);
+
+console.log(age);
