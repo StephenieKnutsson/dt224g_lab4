@@ -2,6 +2,6 @@
 "use strict"
 
 function calculateArea(height, width) {
-    console.log(height * width);
-};
-calculateArea(40, 35);
+    return height * width
+}
+let result = calculateArea(40, 35);
