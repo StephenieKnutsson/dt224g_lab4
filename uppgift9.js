@@ -1,2 +1,13 @@
-/* Lösning till Uppgift 9. Av Stephenie Knutsson, 2026 */
+/* Lösning till Uppgift 9 - Sammanhängande program. Av Stephenie Knutsson, 2026 */
 "use strict"
+
+const cat = [
+    {
+        name: "Saffe",
+        age: 11,
+        breed: "Ragdoll",
+    },
+    {
+        
+    }
+]
