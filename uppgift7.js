@@ -4,5 +4,6 @@
 let age = ["3", "69", "24", "76", "143", "31"];
 
 function calculateSum () {
-    
+    let sum = ()
+    return sum;
 }
