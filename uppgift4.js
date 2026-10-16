@@ -8,23 +8,9 @@ for (let i = 1; i <= 20; i++) {
 }
 
 
-
-
-
-/*
-do (let i = 1; i <=20; i++) {
+// Ändring av loopen --> endast jämna tal skrivs ut (ett villkor INOM loopen)
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
     console.log(i);
-} while {
-    (i === (i % 2 = 0));
+    }
 }
-
-
-let i = 1;
-
-while (i = i % 2 = 0) {
-    console.log(i);
-    i++;
-}
-
-
-for () */
