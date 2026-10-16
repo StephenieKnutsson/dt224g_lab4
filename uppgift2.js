@@ -1,9 +1,14 @@
 /* Lösning till Uppgift 2 - Operatorer och beräkningar. Av Stephenie Knutsson, 2026 */
 "use strict"
 
+// Deklarerar två variabler
 let productPrice = ("20 kr");
 let productCount = ("3 styck");
 
+
+function totalCost () {
+
+};
 
 /* Beräkna:
 totalpriset för samtliga antal produkter
