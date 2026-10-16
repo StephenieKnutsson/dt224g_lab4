@@ -10,6 +10,11 @@ function totalCost () {
 
 };
 
+
+function addedCost () {
+
+};
+
 /* Beräkna:
 totalpriset för samtliga antal produkter
 pris inklusive 25 % moms
