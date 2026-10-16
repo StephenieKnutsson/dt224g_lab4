@@ -1,11 +1,22 @@
 /* Lösning till Uppgift 7 - Arrayer och funktioner. Av Stephenie Knutsson, 2026 */
 "use strict"
 
-let age = ["3", "69", "24", "76", "143", "31"];
+// ARRAY med tal
+let age = []; 
 
-function calculateSum () {
-    let sum = ()
+
+
+// FUNKTION som tar emot arrayen som parameter och räknar ut summan av talen i arrayen
+function calculateSum ([age]) {
+    let sum = (age [0] + [1] + [2] + [3] + [4] + [5])
     return sum;
 }
 
-console.log("Summan är " + calculateSum());
+console.log("Summan är " + calculateSum);
+
+
+
+// LOOP som går igenom arrayens innehåll
+for (let i = 0; i < age.length; i++) {
+    console.log(age[i]);
+};
