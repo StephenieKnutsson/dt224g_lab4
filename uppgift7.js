@@ -6,6 +6,11 @@ let numbers = [1, 2, 3, 4, 5, 6];
 
 console.log(numbers[1]);
  
+function sum (numbers) {
+    return 
+    console.log("Summan är " + numbers);
+    
+}
 
 /*
 function sum (index) {
