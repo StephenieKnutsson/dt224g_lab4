@@ -5,13 +5,16 @@
 let productPrice = (100);
 let productCount = (3)
 
-// Deklarerar variabler för beräkning/beskrivning
-let price = ("Pris: " + productPrice);
-let totalPrice = ("Totalt: " + productPrice * productCount);
+// Deklarerar variabler för beskrivning och beräkning
+let price = ("Pris: " + productPrice + " kr");
+let count = ("Antal: " + productCount);
+let totalPrice = ("Totalt: " + productPrice * productCount + " kr");
 
+// Deklarerar variabler för beräkning av moms och total moms
 let moms = (productPrice + (productPrice * 0,25));
+let totalMoms = ("Totalt inklusive moms: " + moms * productCount + " kr");
 
-let totalMoms = (moms * 3);
+let result = (price + );
 
 console.log(totalMoms);
 
