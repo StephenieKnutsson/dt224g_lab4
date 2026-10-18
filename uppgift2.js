@@ -11,13 +11,10 @@ let totalPrice = ("Totalt: " + productPrice * productCount);
 
 let moms = (productPrice + (productPrice * 0,25));
 
-console.log(moms);
+let totalMoms = (moms * 3);
+
+console.log(totalMoms);
 
 
 /*
- 
-
-
-let result = (price, productCount, totalPrice);
-
-console.log(result); */
+let result = (price + totalPrice + ); */
