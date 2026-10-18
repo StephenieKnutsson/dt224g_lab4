@@ -7,14 +7,16 @@ let productCount = (3)
 
 // Deklarerar variabler för beräkning/beskrivning
 let price = ("Pris: " + productPrice);
-let totalPrice = (productPrice * productCount);
+let totalPrice = ("Totalt: " + productPrice * productCount);
 
-console.log(totalPrice);
+let moms = (productPrice + (productPrice * 0,25));
+
+console.log(moms);
 
 
 /*
  
-let moms = (productPrice + (productPrice * 0,25));
+
 
 let result = (price, productCount, totalPrice);
 
