@@ -14,6 +14,7 @@ let totalPrice = ("Totalt: " + productPrice * productCount + " kr");
 let moms = (productPrice + (productPrice * 0,25));
 let totalMoms = ("Totalt inklusive moms: " + moms * productCount + " kr");
 
-let result = (price + count + totalPrice + totalMoms);
+// Result som en array för att skriva ut variablerna på separata rader
+let result = [price, count, totalPrice, totalMoms];
 
 console.log(result);
