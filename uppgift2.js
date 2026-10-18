@@ -5,26 +5,20 @@
 let productPrice = (100);
 let productCount = (3)
 
-let result = (productPrice * productCount); 
+// Deklarerar variabler för beräkning/beskrivning
+let totalPrice = (productPrice * productCount); 
+let price = ("Pris:", productPrice);
 
 
-console.log(result);
 
 
+console.log(totalPrice);
+
+
+/* Räknar ut totalpriset för samtliga antal produkter
 let moms = (productPrice + (productPrice * 0,25));
 
+let result = (productPrice + moms);
 
-
-
-
-/*
-// Funktion för att beräkna pris inkl. 25% moms
-function addedCost () {
-
-};
-
-addedCost ();
-*/ 
-
-
-
+console.log(result);
+*/
