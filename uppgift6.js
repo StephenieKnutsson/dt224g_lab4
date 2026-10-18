@@ -5,8 +5,14 @@
 function calculateArea(height, width) {
     /* Deklarerar variabeln AREA genom area=height*width */
     let area = (height * width)
-    /* Returvärde att funktionen ska ge räkna ut och returnera area */
+    /* Returvärde att funktionen ska räkna ut och returnera area */
     return area;
 }
 /* Anrop = Skriv ut text + funktionen (med värdet på variablerna) */
 console.log("Arean är " + calculateArea(20, 40));
+
+/* Nya värden*/
+console.log("Arean är " + calculateArea(35, 60));
+
+/* Nya värden */
+console.log("Arean är " + calculateArea(150, 126));
