@@ -6,19 +6,15 @@ let productPrice = (100);
 let productCount = (3)
 
 // Deklarerar variabler för beräkning/beskrivning
+let price = ("Pris: " + productPrice);
+
+console.log(price);
+
+
+/*
 let totalPrice = (productPrice * productCount); 
-let price = ("Pris:", productPrice);
-
-
-
-
-console.log(totalPrice);
-
-
-/* Räknar ut totalpriset för samtliga antal produkter
 let moms = (productPrice + (productPrice * 0,25));
 
-let result = (productPrice + moms);
+let result = (price, productCount, totalPrice);
 
-console.log(result);
-*/
+console.log(result); */
