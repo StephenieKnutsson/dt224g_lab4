@@ -2,17 +2,19 @@
 "use strict"
 
 // Deklarerar två variabler
-let productPrice = ["100 kr", "100 kr", "100 kr"];
+let productPrice = (100);
+let productCount = (3)
+
+let result = (productPrice * productCount); 
+
+
+console.log(result);
+
+
 let moms = (productPrice + (productPrice * 0,25));
 
 
-// Funktion för att beräkna totalpriset för samtliga antal produkter
-function totalCost (productPrice) {
-    return productPrice; 
-};
-let result = totalCost ();
 
-console.log(result);
 
 
 /*
