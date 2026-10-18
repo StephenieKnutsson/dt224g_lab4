@@ -9,3 +9,4 @@ let age = (31);
 
 let isStudent = true; 
 
+console.log(firstName, lastName, "Ålder:", age, "Student:", isStudent);
