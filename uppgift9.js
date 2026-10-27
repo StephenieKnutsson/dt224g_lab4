@@ -28,14 +28,13 @@ const people = [
 
 
 
-
-
 /*
-
 // LOOP som går igenom arrayens innehåll
-for (let i = 0; i < people.length; i++) {
+for (let i = 1; i < people.length; i++) {
     console.log(people[{i}]);
 };
+*/
+
 
 // HUUUUR göra när det är OBJEKT INOM ARRAY????
 
@@ -45,15 +44,18 @@ for (let i = 0; i < people.length; i++) {
 
 
 
+
 // Funktion som:
-    1. skriver ut varje persons namn och stad 
+    //1. skriver ut varje persons namn och stad 
 function info () {
-    console.log(people.name + " bor i " + people.city);
+    console.log(people[1].name + " bor i " + people[1].city);
 };
-info (); // LOGGEN SKRIVER "undefined bor i undefined"
+info (); // LOGGEN SKRIVER "Sofie bor i Hudiksvall"
 
 
 
+
+/*
 // 2. använder ett villkor för att avgöra om personen är myndig 
 
 let ofAge = i;
