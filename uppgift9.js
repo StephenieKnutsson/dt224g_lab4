@@ -29,7 +29,11 @@ const people = [
 // LOOP som går igenom arrayens innehåll
 for (let i = 0; i < people.length; i++) {
     console.log(people[i]);
-};
+}; 
+// OUTPUT: 
+// {name: 'Anna', age: 30, city: 'Sundsvall'}
+// {name: 'Sofie', age: 45, city: 'Hudiksvall'}
+// {name: 'Markus', age: 16, city: 'Härnösand'}
 
 
 // ----------------------------------------------------------------------------------------------------------------------------------------
