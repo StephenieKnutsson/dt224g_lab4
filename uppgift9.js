@@ -19,10 +19,11 @@ const people = [
         city: "Härnösand", 
     }
 ]; 
-
 // console.log(people); // OUTPUT ==> (3) [{…}, {…}, {…}]
-
 // console.log(people[1]); // {name: 'Sofie', age: 45, city: 'Hudiksvall'}
+
+
+// -------------------------------------------------------------------------
 
 
 
@@ -42,7 +43,7 @@ for (let i = 1; i < people.length; i++) {
 
 
 
-
+// ---------------------------------------------------------------
 
 
 // Funktion som:
@@ -50,19 +51,47 @@ for (let i = 1; i < people.length; i++) {
 function info () {
     console.log(people[1].name + " bor i " + people[1].city);
 };
-info (); // LOGGEN SKRIVER "Sofie bor i Hudiksvall"
+info (); // OUTPUT: "Sofie bor i Hudiksvall"
+
+function info () {
+    console.log(people[2].name + " bor i " + people[2].city);
+};
+info (); // OUTPUT: "Markus bor i Härnösand"
+
+function info () {
+    console.log(people[0].name + " bor i " + people[0].city);
+};
+info (); // OUTPUT: "Anna bor i Sundsvall"
 
 
+// ---------------------------------------------------------------
 
 
-/*
-// 2. använder ett villkor för att avgöra om personen är myndig 
+// Funktion som:
+    //2. använder ett villkor för att avgöra om personen är myndig
+function fullInfo () {
+    if (people.age <18) {
+        console.log(people[1].name + " bor i " + people[1].city + " och är " + "inte myndig.");
+    } else {
+        console.log(people[1].name + " bor i " + people[1].city+ " och är " + "myndig.");
+    }
+};
+fullInfo (); // OUTPUT: "Sofie bor i Hudiksvall och är myndig."
 
-let ofAge = i;
+function fullInfo () {
+    if (people.age <18) {
+        console.log(people[0].name + " bor i " + people[0].city + " och är " + "inte myndig.");
+    } else {
+        console.log(people[0].name + " bor i " + people[0].city+ " och är " + "myndig.");
+    }
+};
+fullInfo (); // OUTPUT: "Anna bor i Sundsvall och är myndig."
 
-if (ofAge <18) {
-    console.log("inte myndig");
-} else {
-    console.log("myndig");
-} 
-    */
+function fullInfo () {
+    if (people[2].age <18) {
+        console.log(people[2].name + " bor i " + people[2].city + " och är " + "inte myndig.");
+    } else {
+        console.log(people[2].name + " bor i " + people[2].city+ " och är " + "myndig.");
+    }
+};
+fullInfo (); // OUTPUT: "Markus bor i Härnösand och är inte myndig."
