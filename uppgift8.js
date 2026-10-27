@@ -10,27 +10,15 @@ let book = {
 
 console.log(book.author);
 
+
+
+
 // Funktion som återger beskrivning av objektet
 function bookInfo () {
-    console.log("Titel: " + book.title + "Författare: " + book.author + "Utgivningsår: " + book.publishDate);
+    console.log("Titel: " + book.title + ", författare: " + book.author + ", utgivningsår: " + book.publishDate);
 };
 
-bookInfo ();
+bookInfo (); // OUTPUT ==> Titel: The Eye of the World, författare: Robert Jordan, utgivningsår: 1990
 
 
 
-
-/*
-console.log("Titel: " + title + "," + "Författare: " + author + "," + "Utgivningsår: " + publishDate + ".");
-
-
-function bookInfo (titleInput, authorInput, publishedInput) {
-    this.title = titleInput;
-    this.authour = authorInput;
-    this.published = publishedInput;
-    this.info = function () {
-        console.log (`Titel: ${this.title}, Författare: ${this.author}, Utgivningsår: ${this.published}`)
-    }
-
-}
-    */
