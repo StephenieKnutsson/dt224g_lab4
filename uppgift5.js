@@ -1,22 +1,28 @@
 /* Lösning till Uppgift 5 - Arrayer. Av Stephenie Knutsson, 2026 */
 "use strict"
 
+/*
+Skapa en array som innehåller minst fem valfria maträtter.
+
+Programmet ska sedan:
+*/
+
 let dish = ["pizza", "lasagne", "gryta", "korvstroganoff", "flygande Jacob"];
 
-/* 1. Skriva ut hela arrayen */
+// 1. Skriva ut hela arrayen
 console.log(dish);
 
-/* 2. Skriva ut det första elementet */
+// 2. Skriva ut det första elementet
 console.log(dish[0]);
 
-/* 3. Skriva ut det sista elementet */
-console.log(dish[4]);
+// 3. Skriva ut det sista elementet
+console.log(dish[dish.length - 1]);
 
-/* 4. Lägga till en ny maträtt sist i arrayen */
+// 4. Lägga till en ny maträtt sist i arrayen
 dish.push("tacos");
 
-/* 5. Ta bort den första maträtten i arrayen */
+// 5. Ta bort den första maträtten i arrayen
 dish.shift();
 
-/* 6. Skriva ut arrayen igen efter förändringarna */
+// 6. Skriva ut arrayen igen efter förändringarna
 console.log(dish);
