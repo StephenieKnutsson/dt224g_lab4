@@ -1,9 +1,19 @@
 /* Lösning till Uppgift 2 - Operatorer och beräkningar. Av Stephenie Knutsson, 2026 */
 "use strict"
 
+/*
+Du ska skapa två variabler. 
+Den ena ska lagra priset för en produkt och den andra ska lagra antal produkter, till exempel värdena 100 och 3.
+
+Beräkna:
+- totalpriset för samtliga antal produkter
+- pris inklusive 25 % moms
+*/
+
+
 // Deklarerar två variabler
-let productPrice = (100);
-let productCount = (3)
+let productPrice = 100;
+let productCount = 3;
 
 // Deklarerar variabler för beskrivning och beräkning
 let price = ("Pris: " + productPrice + " kr");
