@@ -12,19 +12,19 @@ Beräkna:
 
 
 // Deklarerar två variabler
-let productPrice = 100;
-let productCount = 3;
+const productPrice = 100;
+const productCount = 3;
 
 // Deklarerar variabler för beskrivning och beräkning
-let price = ("Pris: " + productPrice + " kr");
-let count = ("Antal: " + productCount);
-let totalPrice = ("Totalt: " + productPrice * productCount + " kr");
+const price = ("Pris: " + productPrice + " kr");
+const count = ("Antal: " + productCount);
+const totalPrice = ("Totalt: " + productPrice * productCount + " kr");
 
 // Deklarerar variabler för beräkning av moms och total moms
-let moms = (productPrice + (productPrice * 0,25));
-let totalMoms = ("Totalt inklusive moms: " + moms * productCount + " kr");
+const moms = (productPrice + (productPrice * 0,25));
+const totalMoms = ("Totalt inklusive moms: " + moms * productCount + " kr");
 
 // Result som en array för att skriva ut variablerna på separata rader
-let result = [price, count, totalPrice, totalMoms];
+const result = [price, count, totalPrice, totalMoms];
 
 console.log(result);
