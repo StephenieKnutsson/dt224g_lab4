@@ -16,18 +16,18 @@ const productPrice = 100;
 const productCount = 3;
 
 // Deklarerar variabler för beskrivning och beräkning
-const price = ("Pris: " + productPrice + " kr");
-const count = ("Antal: " + productCount);
-const totalPrice = ("Totalt: " + productPrice * productCount + " kr");
+const price = ("Pris: " + productPrice + " kr"); // OUTPUT: Pris: 100 kr
+const count = ("Antal: " + productCount); // OUTPUT: Antal: 3
+const totalPrice = ("Totalt: " + productPrice * productCount + " kr"); // OUTPUT: Totalt: 300 kr
 
 
 // Deklarerar variabler för beräkning av moms och total moms
-const moms = productPrice * 0.25;
-const totalMoms = ("Totalt inklusive moms: " + moms * productCount + " kr");
+const moms = productPrice * 0.25; // OUTPUT: 25 
+const totalMoms = (productPrice + moms) * productCount; // OUTPUT: 375 
+const finalPrice = ("Totalt inklusive moms: " + totalMoms + " kr"); // OUTPUT: Totalt inklusive moms: 375 kr
 
-console.log(moms);
 
 // Result som en array för att skriva ut variablerna på separata rader
-const result = [price, count, totalPrice, totalMoms];
+const result = price + " " + count + " " + totalPrice + " " + finalPrice;
 
-console.log(result);
+console.log(result); // OUPUT: Pris: 100 kr Antal: 3 Totalt: 300 kr Totalt inklusive moms: 375 kr
