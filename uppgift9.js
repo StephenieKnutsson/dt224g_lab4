@@ -23,14 +23,14 @@ const people = [
 
 // ----------------------------------------------------------------------------------------------------------------------------------------
 
-
-function fullInfo() {
+// Funktion som loopar igenom arrayens innehåll
+function objectInfo() {
     for (let i = 0; i < people.length; i++) {
     console.log(people[i]);
 };
 }
 
-fullInfo(); 
+objectInfo(); 
 // OUPUT:
 // {name: 'Anna', age: 30, city: 'Sundsvall'}
 // {name: 'Sofie', age: 45, city: 'Hudiksvall'}
@@ -40,73 +40,21 @@ fullInfo();
 // ----------------------------------------------------------------------------------------------------------------------------------------
 
 
-
-
-
-
-
-/*
-// LOOP som går igenom arrayens innehåll
-for (let i = 0; i < people.length; i++) {
-
-    console.log(people[i]);
-}; 
-// OUTPUT: 
-// {name: 'Anna', age: 30, city: 'Sundsvall'}
-// {name: 'Sofie', age: 45, city: 'Hudiksvall'}
-// {name: 'Markus', age: 16, city: 'Härnösand'}
-
-
-// ----------------------------------------------------------------------------------------------------------------------------------------
-
-
 // Funktion som:
-    //1. skriver ut varje persons namn och stad 
-function info () {
-    console.log(people[1].name + " bor i " + people[1].city);
-};
-info (); // OUTPUT: "Sofie bor i Hudiksvall"
-
-function info () {
-    console.log(people[2].name + " bor i " + people[2].city);
-};
-info (); // OUTPUT: "Markus bor i Härnösand"
-
-function info () {
-    console.log(people[0].name + " bor i " + people[0].city);
-};
-info (); // OUTPUT: "Anna bor i Sundsvall"
-
-
-// ----------------------------------------------------------------------------------------------------------------------------------------
-
-
-// Funktion som:
-    //2. använder ett villkor för att avgöra om personen är myndig
-function fullInfo () {
-    if (people.age <18) {
-        console.log(people[1].name + " bor i " + people[1].city + " och är " + "inte myndig.");
-    } else {
-        console.log(people[1].name + " bor i " + people[1].city+ " och är " + "myndig.");
+    // 1. skriver ut varje persons namn och stad 
+    // 2. använder ett villkor för att avgöra om personen är myndig
+function fullInfo() {
+    for (let i = 0; i < people.length; i++) {
+        if (people[i].age < 18) {   // UNDER 18 år
+        console.log(people[i].name + " bor i " + people[i].city + " och är " + "inte myndig.");
+        } else { // MYNDIG
+        console.log(people[i].name + " bor i " + people[i].city + " och är " + "myndig.");
+        }
     }
-};
-fullInfo (); // OUTPUT: "Sofie bor i Hudiksvall och är myndig."
+}
 
-function fullInfo () {
-    if (people.age <18) {
-        console.log(people[0].name + " bor i " + people[0].city + " och är " + "inte myndig.");
-    } else {
-        console.log(people[0].name + " bor i " + people[0].city+ " och är " + "myndig.");
-    }
-};
-fullInfo (); // OUTPUT: "Anna bor i Sundsvall och är myndig."
-
-function fullInfo () {
-    if (people[2].age <18) {
-        console.log(people[2].name + " bor i " + people[2].city + " och är " + "inte myndig.");
-    } else {
-        console.log(people[2].name + " bor i " + people[2].city+ " och är " + "myndig.");
-    }
-};
-fullInfo (); // OUTPUT: "Markus bor i Härnösand och är inte myndig."
-*/
+fullInfo(); 
+// OUPUT
+// Anna bor i Sundsvall och är myndig.
+// Sofie bor i Hudiksvall och är myndig.
+// Markus bor i Härnösand och är inte myndig.
