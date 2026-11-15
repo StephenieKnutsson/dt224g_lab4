@@ -20,9 +20,12 @@ const price = ("Pris: " + productPrice + " kr");
 const count = ("Antal: " + productCount);
 const totalPrice = ("Totalt: " + productPrice * productCount + " kr");
 
+
 // Deklarerar variabler för beräkning av moms och total moms
-const moms = (productPrice + (productPrice * 0,25));
+const moms = productPrice * 0.25;
 const totalMoms = ("Totalt inklusive moms: " + moms * productCount + " kr");
+
+console.log(moms);
 
 // Result som en array för att skriva ut variablerna på separata rader
 const result = [price, count, totalPrice, totalMoms];
